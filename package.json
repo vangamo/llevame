@@ -1,21 +1,41 @@
 {
-  "name": "phonegap-template-hello-world",
-  "version": "1.0.0",
-  "description": "> A Hello World template built with PhoneGap",
+  "name": "react-cordova-pickmeup",
+  "version": "0.0.1",
+  "description": "Social app to share car daily.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+    "url": "https://github.com/vangamo/llevame.git"
   },
-  "author": "PhoneGap Team",
-  "license": "Apache-2.0.0",
   "keywords": [
-    "ecosystem:phonegap",
-    "ecosystem:cordova",
-    "cordova:template",
-    "phonegap:template"
   ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
+    "url": "https://github.com/vangamo/llevame/issues"
   },
-  "homepage": "https://github.com/phonegap/phonegap-app-hello-world"
+  "enviroments": {
+    "__DEV__": {
+      "__MINIFICATION__": false,
+      "__SOURCEMAP__": true,
+      "__SSR__": false,
+      "__DEVTOOLS__": true
+    },
+    "__PROD__": {
+      "__MINIFICATION__": true,
+      "__SOURCEMAP__": false,
+      "__SSR__": true,
+      "__DEVTOOLS__": false
+    },
+    "__CORDOVA__": {
+      "__MINIFICATION__": true,
+      "__SOURCEMAP__": false,
+      "__SSR__": true,
+      "__DEVTOOLS__": false
+    }
+  },
+  "homepage": "https://github.com/vangamo/llevame#readme",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+  }
 }
